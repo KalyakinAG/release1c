@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03a91950-3a29-4fda-9c7c-a977abd338eb">
+  <producedTypes>
+    <objectType typeId="8e76e242-cef6-4d33-8bba-2771106f393a" valueTypeId="3e3c3dac-97aa-4bdd-bb78-ec2f9365f579"/>
+  </producedTypes>
+  <name>ОписаниеИзмененийСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание изменений системы</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="6e62cb9d-5ac5-4e92-aa15-54d6b4dd1e4c"/>
+  <defaultForm>ExternalDataProcessor.ОписаниеИзмененийСистемы.Form.Форма</defaultForm>
+  <attributes uuid="66eadd8d-60b8-4ce2-88db-e9799c1c9afe">
+    <name>ЗадачиРелиза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи релиза</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="05b53b6b-d5b6-4ea3-93b4-63498cb566f8">
+    <name>НомерРелиза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер релиза</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b2e34649-998e-4d57-80de-1fa2cac25d39">
+    <name>ВерсияРелиза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия релиза</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f7d88e18-0713-4f06-8fa4-65b7c5e02b7e">
+    <name>ПоследнийНомерРелиза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний номер релиза</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ef50019e-9a8f-4643-b8eb-e5748793f72c">
+    <name>ДатаРелиза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата релиза</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="30b7078c-4029-49b6-aff6-147a6261ff8d">
+    <name>ОписаниеИзмененийСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание изменений системы</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="56ae785d-7c0c-426f-8dea-0d409d1ca1de">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="71e77afd-58be-4b56-9a5d-15ba398ed805">
+    <name>apiKey</name>
+    <synonym>
+      <key>ru</key>
+      <value>apiKey</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dc0307c2-3a76-4478-bf1e-36f13389abca">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d6df667d-f5e3-4592-99f6-e5821688180d">
+    <name>ОписаниеРелизаВТелеграм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание релиза в телеграм</value>
+    </synonym>
+    <type>
+      <types>TextDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4328cc98-60d4-41b1-b0fb-262cb0216ff6">
+    <name>РабочийКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий каталог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5e20d93b-cc34-4f41-bc52-00115cf6961e">
+    <name>СсылкаНаЧейнджлог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на чейнджлог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="93bbb730-3a49-460b-82ea-23e7a1653819">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b6926732-8815-4dd2-835e-93b489d53325">
+    <name>ОписаниеИзмененийСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание изменений системы</value>
+    </synonym>
+  </templates>
+  <templates uuid="074f9a77-7769-45e7-86cd-edeafe16303e">
+    <name>ЗадачиРелиза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи релиза</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>

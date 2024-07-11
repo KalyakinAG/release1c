@@ -1,6 +1,10 @@
-InfoBases
+# IDE
+/.metadata/
+/.settings/
+/.vscode/
+/.obsidian/
+# Binary
 bin
+InfoBases
 tools
 examples
-Repositories
-.vscode
