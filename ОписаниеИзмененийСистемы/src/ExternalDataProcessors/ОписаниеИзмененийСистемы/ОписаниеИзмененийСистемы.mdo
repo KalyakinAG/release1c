@@ -109,10 +109,10 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="71e77afd-58be-4b56-9a5d-15ba398ed805">
-    <name>apiKey</name>
+    <name>JiraToken</name>
     <synonym>
       <key>ru</key>
-      <value>apiKey</value>
+      <value>api token jira</value>
     </synonym>
     <type>
       <types>String</types>
@@ -169,6 +169,50 @@
     <type>
       <types>String</types>
       <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="99f8e3e5-59b2-401b-a993-9dad3e9e65aa">
+    <name>SonarToken</name>
+    <synonym>
+      <key>ru</key>
+      <value>api token SonarQube</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0eebf789-7446-4ded-90e5-be90085f04cd">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3fd78d62-925d-4add-98a1-208e2dd3067c">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
